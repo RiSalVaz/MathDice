@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="encabezado">
+        <span class="titulo">Math</span>
+        <img id="dadoTitulo" src="dados/dadoTitulo.png" alt="dado del titulo">
+        <span class="titulo">Dice</span>
+    </div>
+    <div id="tirada">
+        <div class="dados">
+            <button id="botonDado1" class="botonesDados" onclick="excepciones(dado1.src,this.id,dado1.id)"><img class="dadosColores" id="dado1" src="dados/13.png" alt="dado rojo"></button>
+            <p id="valor1" class="resultadoDado"></p>
+        </div>
+        <div class="dados">
+            <button id="botonDado2" class="botonesDados" onclick="excepciones(dado2.src,this.id,dado2.id)"><img class="dadosColores" id="dado2"  src="dados/21.png" alt="dado azul"></button>
+            <p id="valor2" class="resultadoDado"></p>
+        </div>
+        <div class="dados">
+            <button id="botonDado3" class="botonesDados" onclick="excepciones(dado3.src,this.id,dado3.id)"><img class="dadosColores" id="dado3"  src="dados/32.png" alt="dado verde"></button>
+            <p id="valor3" class="resultadoDado"></p>
+        </div>
+        <div class="dados">
+            <button id="botonDado4" class="botonesDados" onclick="excepciones(dado4.src,this.id,dado4.id)"><img class="dadosColores" id="dado4"  src="dados/46.png" alt="dado amarillo"></button>
+            <p id="valor4" class="resultadoDado"></p>
+        </div>
+        <div class="dados">
+            <button id="botonDado5" class="botonesDados" onclick="excepciones(dado5.src,this.id,dado5.id)"><img class="dadosColores" id="dado5"  src="dados/55.png" alt="dado morado"></button>
+            <p id="valor5" class="resultadoDado"></p>
+        </div>
+        <div class="dados">
+            <img class="dadosColores" id="dadoObjetivo" src="dados/dadoBlanco7.png" alt="dado objetivo">
+            <p id="valorDadoObjetivo"></p>
+        </div>
+
+    </div>
+    <div id="entradaDatos">
+        <div id="padPlayerMaquina">
+
+        </div>
+        <div id="padReiniciarJuego">
+            <button id="botonJugar" onclick="mostrarDados()">Tirar dados</button>
+            <span id="numIntentos"></span >
+            <span id="etiquetaIntentos">Intentos restantes</span>
+            
+        </div>
+        <div id="padPlayer1">
+            <div id="pantalla">
+                <span id="tuJugada" >Tu jugada</span>
+                <input id="inputOperaciones" type="text" placeholder="Introduce la operacion">
+            </div>
+           <div id="botonesOperar">
+                <button id="+" class="operaciones" onclick="excepciones(this.id)">+</button>
+                <button id="-" class="operaciones" onclick="excepciones(this.id)">-</button>
+                <button id="*" class="operaciones" onclick="excepciones(this.id)">*</button>
+                <button id="/" class="operaciones" onclick="excepciones(this.id)">/</button>
+                
+            </div> 
+            <div id="comprobacion"><button id="botonComprobar" onclick="mostrarResultados()">Comprobar</button></div> 
+        </div>
+    </div>
+
+    <script src="js/mostrarResultados.js"></script>
+    <script src="js/excepciones.js"></script>
+    <script src="js/objetoMiJugada.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
+
+
+

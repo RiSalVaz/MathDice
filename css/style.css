@@ -1,0 +1,165 @@
+
+    @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+ *{
+        font-family: 'Luckiest Guy', cursive;
+ }
+ body{
+     height:100vh;
+     width:100%;
+     display:flex;
+     flex-direction:column;
+     background-color: #9EF8F8;
+ }
+#encabezado{
+    display:flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+    background-color: #9EF8F8;
+    height:25%;
+}
+#dadoTitulo{
+    width:100px;
+    height:100px;
+}
+.titulo{
+    font-size: 100px;
+   
+}
+#tirada{
+    display:flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+    height:40%;
+
+}
+.dados{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+    height:100%;
+    width:20%;
+    
+   
+}
+.dadosColores{
+    width:150px;
+    height:150px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:10px;
+    border: black 10px solid;
+    border-radius:20%;
+  
+}
+.botonesDados{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+}
+#valorDadoObjetivo{
+    font-size:30px;
+    padding-left:10px;
+}
+
+.resultadoDado{
+    padding-left:40px;
+}
+#objetivo{
+    display:flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+    height:25%;
+  
+}
+#entradaDatos{
+    display:flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+    height:35%;
+    width:100%;
+}
+#padPlayerMaquina{
+    display:flex;
+    height:100%;
+    width: 33.333%;
+
+} 
+#padReiniciarJuego{
+    display:flex;
+    height:100%;
+    width: 33.333%;
+    align-items: center;
+    justify-content: center; 
+    flex-direction:column;
+}
+
+#botonJugar{
+    height:100px;
+    width: 300px;
+    font-size: 40px;
+    outline:none;
+    
+}
+#numIntentos{
+    height:50px;
+    width:50px;
+    background-color: aliceblue;
+    border:black 0.5px solid;
+    margin:15px;
+    text-align: center;
+    text-justify: center;
+    font-size:30px;
+}
+#etiquetaIntentos{
+    height:50px;
+    width:150px;
+    font-size:18px;  
+    text-align: center;
+}
+#padPlayer1{
+    display:flex;
+    height:100%;
+    width: 33.333%;
+    flex-direction:column;
+    align-items: center;
+    justify-content: flex-start;
+}
+#pantalla{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction:column;
+}
+#tuJugada{
+    height:50px;
+    width:150px;
+    font-size:22px;
+    text-align: center;
+   
+}
+
+#inputOperaciones{
+    height:50px;
+    width:200px;
+    font-size:15px;
+    text-align:center;
+    
+}
+#botonAceptar{
+    margin:10px;
+    height:30px;
+    width:70px;
+}
+.operaciones{
+    font-size:30px;
+    height:50px;
+    width:50px;
+    margin:15px;
+}
+
+
